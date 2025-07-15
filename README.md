@@ -13,7 +13,7 @@ The Confusion Matrix of the model
 
 #### Reproducibility:
 
-#### 1. Download the requirements.txt file, the model "best_model.pth" and app.py from the github. Keep them in the same folder.
+#### 1. Download the requirements.txt file, the model "best_model.pth" and app.py from the github. Keep them in the same folder."best_model.pth" can be downloaded from Release-->tags.
 #### 2. Create a virtual environment and activate it.
 #### 3. type --> "pip install requirements.txt" in the terminal.
 #### 4. If you face any difficulty in installing pytorch, please visit the official website of pytorch and copy the link as per your cuda version
