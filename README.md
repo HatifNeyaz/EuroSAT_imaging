@@ -34,5 +34,5 @@ The Confusion Matrix of the model
 #### 5. Click on "Crop and Save Map Area"
 #### 6. Finally the model will show it's prediction in terms of probability and area type.
 
-!["Final_image"](output_image/final_model_decision.PNG)
+!["Final_image"](output_images/final_model_decision.PNG)
 
