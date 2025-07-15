@@ -88,19 +88,6 @@ if st_data:
 
 
 
-# uploaded_image = st.file_uploader("Upload Satellite Image", type=["jpg", "png", "jpeg", "PNG"])
-
-
-
-# # if uploaded_image is not None:
-# #     st.success("Image successfully uploaded!")
-# #     image = Image.open(uploaded_image)
-# #     st.image(image, caption="Uploaded Area", use_column_width=True)
-# # else:
-# #     st.info("Please upload an image to continue.")
-
-
-#==================================================
 # Model Loading
 import torch
 import torch.nn as nn
