@@ -2,7 +2,7 @@
 
 ## Objective: Use raw satellite images to predict the picture to be a farmland, residential area, industrial area, river, sea/lake, pasture, forest, highways or herbaceous vegetation
 
-#### ❗ This works only on European satellite images
+#### ❗ This works only for Europe
 
 #### Dataset used is EuroSAT
 
@@ -16,7 +16,7 @@ The Confusion Matrix of the model
 #### 1. Download the requirements.txt file, the model "best_model.pth" and app.py from the github. Keep them in the same folder.
 #### 2. Create a virtual environment and activate it.
 #### 3. type --> "pip install requirements.txt" in the terminal.
-#### 4. If you face any difficulty in installing pytorch, please visit the official website of pytorch and copy the link as per #### you cuda version
+#### 4. If you face any difficulty in installing pytorch, please visit the official website of pytorch and copy the link as per your cuda version
 
 
 #### Steps to use the app.py
