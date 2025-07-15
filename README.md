@@ -1,9 +1,10 @@
-# Satellite Image Recognition (Europe)
+# Satellite Image Recognition
 
-## Objective: Use Europena raw satellite images to predict the picture to be a farmland, residential area, industrial area,
-## river, sea/lake, pasture, forest, highways or herbaceous vegetation
+## Objective: Use raw satellite images to predict the picture to be a farmland, residential area, industrial area, river, sea/lake, pasture, forest, highways or herbaceous vegetation
 
 #### ❗ This works only on European satellite images
+
+#### Dataset used is EuroSAT
 
 The Confusion Matrix of the model
 
