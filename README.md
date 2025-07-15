@@ -26,7 +26,7 @@ The Confusion Matrix of the model
 !["Map_alignment"](output_images/map_pic.PNG)
 
 #### 2. Get to the desired area on the map. Make sure you are visualizing only the European Land.
-#### 3. The zoom on the area and then change the vision from "OpenStreet" to "google map". Use the option from the top right.
+#### 3. Then zoom on the area and change the vision from "OpenStreet" to "google map". Use the option from the top right.
 
 !["Map_change_instructions"](output_images/map_change.png)
 
