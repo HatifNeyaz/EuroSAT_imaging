@@ -63,7 +63,6 @@ m = m = folium.Map(
     attr='Google Satellite'
 )
 folium.TileLayer("OpenStreetMap",crs = "EPSG4326").add_to(m)
-folium.TileLayer(tiles="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", attr="Openstreet").add_to(m)
 folium.LayerControl().add_to(m)
 
 
@@ -129,10 +128,14 @@ label_name= {0: 'AnnualCrop',
              2: 'HerbaceousVegetation', 3: 'Highway', 4: 'Industrial', 5: 'Pasture', 6: 'PermanentCrop', 7: 'Residential',
              8: 'River', 9: 'SeaLake'}
 
+
+st.write("Original Screenshot Image")
 st.image(input_image)
 display = input_tensor.squeeze(0)
 display = torch.clamp(display, 0,1)
 display = display.numpy()
+
+st.write("Image after Transformation")
 st.image(numpy.transpose(display, [1,2,0]))
 st.write(f"Probability {value}")
 st.write(f'{label_name[label]}')
