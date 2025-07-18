@@ -1,5 +1,5 @@
 streamlit
 numpy
 pillow
-pyautogui pillow
+pyautogui
 torch
