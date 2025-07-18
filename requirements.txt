@@ -3,3 +3,4 @@ numpy
 pillow
 pyautogui
 torch
+streamlit-folium
